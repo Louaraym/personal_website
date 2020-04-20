@@ -1,0 +1,412 @@
+/* GENERAL */
+body{
+    font-family: 'Lato', sans-serif;
+}
+h1,h2,h3,h4,h5,h6{
+    font-weight: bold;
+}
+.heading h2{
+    font-family: 'Limelight', sans-serif;
+}
+img{
+    max-width: 100%;
+    height: auto;
+}
+ul,ol{
+    list-style:none;
+}
+section{
+    padding: 45px 0 45px 0;
+}
+section .heading{
+    text-align: center;
+    padding-bottom: 40px;
+}
+section .heading h2{
+    text-transform: uppercase;
+}
+.red-divider{
+    width: 100px;
+    height: 2px;
+    background: #d82c2e;
+    margin: 0 auto 20px;
+
+}
+.white-divider{
+    width: 100px;
+    height: 2px;
+    background: #fff;
+    margin: 0 auto 20px;
+}
+
+.button1{
+    font-weight: bold;
+    text-transform: uppercase;
+    color: white;
+    border: 1px solid white;
+    display: inline-block;
+    margin-top:  20px;
+    padding: 18px 50px;
+    border-radius: 3px;
+    transition: all 0.3s ease-in 0s;
+    background: transparent;
+}
+.button1:hover{
+    background: white;
+    color: #d82c2e;
+    text-decoration: none;
+}
+
+/* MENU */
+.navbar {
+    background-color: #d82c2e;
+    font-size: 12px;
+    border-bottom: 1px solid #fff;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.nav-pills .nav-link{
+    color: #fff !important;
+    text-align: center;
+}
+.nav-pills .nav-link.active,  .nav-pills .nav-link:hover{
+    color: #d82c2e !important;
+    background-color: #fff !important;
+}
+.navbar-toggler{
+    color: #fff !important;
+    border-style: none;
+}
+
+.navbar-brand i{
+    font-size: 30px;
+}
+
+/* ABOUT */
+#about{
+    padding-top: 40px;
+    background: #d82c2e;
+    padding-bottom: 40px;
+}
+
+#about h1{
+    font-family: 'Limelight', sans-serif;
+}
+
+.profile-picture{
+    text-align: center;
+    /*margin: 0 auto;*/
+    /*float: none;*/
+}
+
+@media (max-width: 991.98px) {
+    #about .heading{
+        margin-top: 20px;
+    }
+}
+
+
+#about .heading {
+    padding-bottom: 20px;
+}
+#about .heading h1{
+    color: #fff;
+}
+#about .heading p{
+    font-size: 18px;
+    color: white;
+}
+
+#about .resume-contact .resume-link {
+    color: white;
+}
+
+#about .resume-contact{
+    color: white;
+}
+
+#about a{
+    text-decoration: none;
+}
+
+#about .resume-contact ul li i{
+    font-size: 30px;
+    color: whitesmoke;
+}
+
+/* SKILLS */
+#skills{
+    background: #fff;
+}
+
+#skills .heading h2 {
+    color: #d82c2e;
+}
+
+#skills .heading p {
+    margin: 10px auto 3px;
+    font-weight: bold;
+    color: black;
+}
+
+#skills .skills-block-inner{
+    background: #d82c2e;
+}
+
+#skills .skills-block-inner h4{
+    color: white;
+    text-align: center;
+    margin-top: 5px;
+}
+
+#skills .skills-block-inner p{
+    color: white;
+    font-size: 15px;
+    /*text-align: center;*/
+    margin-top: 5px;
+}
+
+#skills .skills-block-inner ul li{
+    color: white;
+    margin-top: 5px;
+}
+/* EXPERIENCE */
+#experience{
+    background: #d82c2e;
+}
+#experience .heading h2{
+    margin-bottom: 15px;
+    color: #fff;
+}
+
+#experience .heading p{
+    width: 100%;
+    background-color: white;
+    padding: 10px;
+    color:black;
+    font-weight: bold;
+}
+
+.timeline-panel-container{
+    margin: 0 auto;
+    width: 100%;
+}
+
+.timeline-panel{
+    border: 1px solid #d4d4d4;
+    border-radius: 7px;
+    padding: 20px 25px;
+    box-shadow: 0 1px 6px rgba(0,0,0, 0.175);
+    background: #fff;
+}
+
+.timeline-heading h3{
+    margin-top: 5px;
+    font-size: 20px;
+}
+.timeline-heading h4{
+     color: #d82c2e;
+}
+
+
+/* EDUCATION */
+#education{
+    background: #fff;
+}
+#education .heading h2{
+    color: #d82c2e;
+}
+.education-block{
+    text-align: center;
+    background: #ddd;
+    border-radius: 10px;
+    border: 2px solid #ccc;
+    margin: 0 auto;
+
+}
+.education-block h5{
+    color: #888;
+    font-size: 15px;
+    margin-bottom: 15px;
+}
+.education-block .fas{
+    font-size: 35px;
+}
+.education-block h3{
+     color: #d82c2e;
+}
+.education-block h4{
+   margin-bottom: 20px;
+}
+.education-block p{
+  font-weight: bold;
+}
+.education-block .red-divider{
+    margin-bottom: 20px;
+}
+
+#education .heading p{
+    font-size: 18px;
+}
+
+#education .heading p a{
+   text-decoration: none;
+}
+
+/* PORTFOLIO */
+#portfolio{
+    background: #d82c2e;
+}
+#portfolio .heading{
+   margin-bottom: -20px;
+}
+#portfolio .heading h2{
+    color: #fff;
+}
+#portfolio .heading p{
+    color: #fff;
+}
+#portfolio img{
+    width: 100%;
+    height: 100%;
+    filter: grayscale(100%);
+    -webkit-filter: grayscale(100%); 
+}
+#portfolio img:hover{
+     filter: none;
+    -webkit-filter: none; 
+}
+
+@media (max-width: 991.98px) {
+    .card-columns {
+        -webkit-column-count: 1;
+        -moz-column-count: 1;
+        column-count: 1;
+    }
+}
+
+/* HOBBIES */
+#hobbies{
+    background: #fff;
+}
+#hobbies .heading h2{
+    color: #d82c2e;
+}
+.fas.fa-chevron-left, .fas.fa-chevron-right{
+    background-image: none;
+    color: #d82c2e;
+}
+.carousel-indicators{
+    bottom: 0;
+}
+.carousel-indicators li{
+    width: 10px;
+    height: 10px;
+    border-radius: 100%;
+    border: 1px solid #d82c2e;
+}
+.carousel-indicators li.active{
+    background-color: #d82c2e;
+}
+
+#myCarousel {
+    margin-top: -20px;
+}
+
+#myCarousel .carousel-item h3{
+    color: #d82c2e;
+    font-style: italic;
+}
+
+#myCarousel .carousel-item{
+    font-family: 'Holtwood One SC', serif;
+    color: #e7480f;
+    text-shadow: 1px 2px #ffd301;
+    font-size: 60px;
+    padding: 0 0 40px 0;
+    text-align: center;
+}
+
+/* FOOTER */
+footer{
+    background: #333;
+    padding: 20px 0 40px;
+}
+footer .fas{
+    font-size:  25px;
+    margin: 20px;
+    color: #d82c2e;
+    height: 30px;
+}
+footer .fas:hover{
+    font-size:  27px;
+}
+footer h5{
+    color: #fff;
+    font-weight: normal;
+}
+
+/* CONTACT */
+#contact{
+    background: #d82c2e;
+}
+
+#contact h2{
+    color: white;
+}
+
+#contact-form{
+    font-size: 20px;
+    color: white;
+}
+
+#contact .heading{
+    margin-bottom: -20px;
+}
+
+.form-control{
+    height: 50px;
+    font-size: 18px !important;
+}
+
+.error-message{
+    font-style: italic;
+    font-size: 18px;
+    color: white;
+    height: 25px;
+}
+
+#contact-form input[type=submit]{
+    display: block;
+    margin: 40px auto 0;
+}
+
+.success-message{
+    font-weight: bold;
+    text-align: center;
+    margin-top: 15px;
+    font-size: 22px;
+}
+
+/*FOOTER*/
+footer{
+    text-align: center;
+}
+
+footer .row{
+    color: white;
+}
+
+footer .row i{
+    color: white !important;
+}
+
+footer .row a{
+    text-decoration: none !important;
+    color: white !important;
+}
+
+footer h5{
+ font-size: 15px;
+}
